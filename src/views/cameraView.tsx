@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import {View, Text, Dimensions, TouchableOpacity, TouchableWithoutFeedback} from 'react-native';
 import CameraScanner from '../components/camera.js';
 
@@ -8,20 +8,20 @@ const CameraView = () => {
     const height = Dimensions.get('window').height;
 
     const [camera, setCamera] = useState(false);
+    const startTime = useRef<number | null>(null);
 
     const readValue = (value: string) => {
-        console.log('teste: ' + value);
         setCamera(false);
     }
 
     return(
         <TouchableWithoutFeedback>
             {camera ? (
-                <CameraScanner onCodeScanned={(value: string) => {readValue(value)}} onCancel={() => setCamera(false)} />
+                <CameraScanner onCodeScanned={(value: string) => {readValue(value)}} onCancel={() => setCamera(false)} startTime={startTime} />
             ):(
                 <View style={{backgroundColor: "#fff", width: width, height: height, alignItems: 'center'}}>
             
-                    <TouchableOpacity style={{backgroundColor: '#009be8ff', width: width * 0.53, height: height * 0.075, marginTop: height * 0.09, borderRadius: width * 0.02, alignItems: 'center', justifyContent: 'center'}} onPress={() => setCamera(true)}>
+                    <TouchableOpacity style={{backgroundColor: '#009be8ff', width: width * 0.53, height: height * 0.075, marginTop: height * 0.09, borderRadius: width * 0.02, alignItems: 'center', justifyContent: 'center'}} onPress={() => {setCamera(true), startTime.current = Date.now()}}>
                         <Text style={{fontSize: width * 0.047, color: '#fff'}}>Abrir câmera</Text>
                     </TouchableOpacity>
                 

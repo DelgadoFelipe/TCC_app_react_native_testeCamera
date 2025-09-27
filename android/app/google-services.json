@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "245827016252",
+    "project_id": "teste-44f9a",
+    "storage_bucket": "teste-44f9a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245827016252:android:08c59f3e450a9d00de5539",
+        "android_client_info": {
+          "package_name": "com.example.teste_abertura"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMLN6OdRMAQfe_NtDY3fJJzW0J37T9iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245827016252:android:8d1fe31cb5780090de5539",
+        "android_client_info": {
+          "package_name": "com.example.teste_abertura_kotlin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMLN6OdRMAQfe_NtDY3fJJzW0J37T9iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245827016252:android:359f1c377cbd2564de5539",
+        "android_client_info": {
+          "package_name": "com.example.teste_rede"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMLN6OdRMAQfe_NtDY3fJJzW0J37T9iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245827016252:android:b1b7aa7b48aabde6de5539",
+        "android_client_info": {
+          "package_name": "com.example.teste_rede_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMLN6OdRMAQfe_NtDY3fJJzW0J37T9iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245827016252:android:20fa13060aee1012de5539",
+        "android_client_info": {
+          "package_name": "com.teste_abertura"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMLN6OdRMAQfe_NtDY3fJJzW0J37T9iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245827016252:android:3c05a4e87c64a36ede5539",
+        "android_client_info": {
+          "package_name": "com.teste_camera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMLN6OdRMAQfe_NtDY3fJJzW0J37T9iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245827016252:android:0f68cc2d6ea81430de5539",
+        "android_client_info": {
+          "package_name": "com.testerede"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMLN6OdRMAQfe_NtDY3fJJzW0J37T9iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
